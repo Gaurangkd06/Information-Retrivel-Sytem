@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Generative-AI-Project"  
+version = "0.0.1"
+description = "An AI-based project"
+authors = [
+    {name = "Gaurang Kadam", email = "gaurangkd06@gmail.com"}
+]
+dependencies = [
+    "streamlit",
+    "langchain",
+    "openai",
+    "pymupdf",
+    "pandas",
+    "numpy"
+]
